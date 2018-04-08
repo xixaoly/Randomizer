@@ -1,5 +1,5 @@
 {
-    "name": "Randomizer",
+    "name": "xixaoly/randomizer",
     "description": "Randomize DB columns",
     "require": {
         "php": ">=5.6",
