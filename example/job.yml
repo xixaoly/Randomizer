@@ -1,0 +1,17 @@
+connection:
+    dns: mysql:dbname=randomizer;host=127.0.0.1
+    name: root
+    password: example
+options:
+    defaultClass:
+        class: Randomizer\Database\Mysql\Method\RandomString
+schema:
+    table1:
+        colm1:
+            class: Randomizer\Database\Mysql\Method\RandomNumber
+            arguments:
+                min: 10
+                max: 20
+        colm2:
+            class: Randomizer\Database\Mysql\Method\RandomString
+        colm3:
